@@ -1,0 +1,152 @@
+body {
+  font-size: 16px;
+  color: #fff;
+  background-color: #61122f;
+  font-family: 'Oxygen', sans-serif;
+}
+
+/** HEADER **/
+#header-nav {
+  background-color: #f6b319;
+  border-radius: 0;
+  border: 0;
+}
+
+.navbar-brand {
+  padding-top: 25px;
+}
+
+.navbar-brand h1 { /* Restaurant name */
+  font-family: 'Lora', serif;
+  color: #557c3e;
+  font-size: 1.5em;
+  text-transform: uppercase;
+  font-weight: bold;
+  text-shadow: 1px 1px 1px #222;
+  margin-top: 0;
+  margin-bottom: 0px;
+  padding-bottom: 10px;
+  line-height: .75;
+}
+.navbar-brand a:hover, .navbar-brand a:focus {
+  text-decoration: none;
+}
+
+#nav-list a {
+  color: #951C49;
+  text-align: center;
+}
+#nav-list a:hover {
+  background: #E7E7E7;
+}
+#nav-list a span {
+  font-size: 1.8em;
+}
+
+/* Styles for Menu Elements */
+
+* {
+  box-sizing: border-box;
+  font-family: Verdana;
+}
+
+.Container {
+  width: 100%;
+}
+
+p{
+  margin-left: 10px;
+  margin-right: 10px;
+  font-weight: lighter;
+}
+
+.menuitem{
+  border: 1px solid black;
+  background-color: gray;
+  width: 100%;
+;  height: auto;
+  overflow: hidden;
+  margin-right:auto;
+  margin-left: auto;
+  margin-bottom: 15px;
+  margin-top: 10px;
+  font-family: Verdana;  /*Helvetica;*/
+  color: black;
+}
+
+.menuitemtitle{
+  height: 25px;
+  width: 100%;
+  text-align: center;
+  margin-top: 0px;
+  margin-bottom: 2px;
+  color: black;
+  float : center;
+  font-weight: bold;
+}
+
+.xsmenuitem{
+  height: 25px;
+  width: 100%;
+  padding-top: 0px;
+  padding-bottom: 0px;
+  padding-right: 0px;
+  padding-left: 0px; 
+  margin-top: 0px;
+  margin-bottom: 0px;
+  background-color: gray;
+  color: black;
+
+}
+/* Simple Responsive Framework. */
+
+
+/********** Medium devices only **********/
+@media (min-width: 768px) and (max-width: 991px) {
+  .col-sm-12 {
+    float: left;
+    border: 1px ;
+    width: 100%
+  }
+  .col-sm-6 {
+    float: left;
+    border: 1px ;
+    width: 50%
+  } 
+  .col-xs-12 {
+    float: left;
+    position: relative;
+    display: block;
+    border: 2px ;
+    width: 100%;   
+    padding-left: auto;
+    padding-right: auto;
+    margin-left: 0px;
+    margin-right: 0px;     
+  }
+}
+
+/********** Large devices only **********/
+@media (min-width: 992px) {
+  .col-md-4{
+    float: left;
+    border: 1px ;
+    width: 33.3%
+  }
+  .col-md-12{
+    float: left;
+    border: 1px ;
+    width: 100%
+  }  
+  .col-xs-12 {
+    float: left;
+    position: relative;
+    display: block;
+    border: 2px ;
+    width: 100% ;    
+    padding-left: auto;
+    padding-right: auto;
+    margin-left: 0px;
+    margin-right: 0px;    
+}
+
